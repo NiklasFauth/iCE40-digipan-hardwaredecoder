@@ -4,8 +4,8 @@ GEN = icepack
 PROG = iceprog
 
 TOP = uart_demo.v
-PCF = icestick.pcf
-DEVICE = 1k
+PCF = ice40hx8k.pcf
+DEVICE = 8k
 
 OUTPUT = $(patsubst %.v,%.bin,$(TOP))
 

@@ -1,0 +1,32 @@
+###################################
+# Physical constraints file (pcf) #
+# for iCE40HX8K-CT256             #
+###################################
+
+# 12 MHz clock
+set_io iCE_CLK J3
+
+# Red LEDs
+set_io LED0 B5
+set_io LED1 B4
+set_io LED2 A2
+set_io LED3 A1
+
+# Green LED
+set_io LED4 C5
+
+set_io RS232_Tx_TTL B12 # Output to FTDI
+set_io RS232_Rx_TTL T1  # Input signal from digipan
+
+### Reset
+set_io RSTn_i C16 -pullup yes
+
+### UART (FTDI Channel B)
+set_io RTSn       B13
+set_io CTSn       A15
+set_io DTRn       A16
+set_io DSRn       B14
+set_io DCDn       B15
+
+### Pins
+# set_io D16_o D16
