@@ -33,8 +33,8 @@ may need to run it with `sudo`.
 
 ## Usage
 
-python setbaudrate.py /dev/ttyUSB0 8000000
-python image_rt.py /dev/ttyUSB0
+- python setbaudrate.py /dev/ttyUSB0 8000000
+- python image_rt.py /dev/ttyUSB0
 
 ## Other boards
 Only tested on the HX8 eval board. Should work on the iCEstick as well, just change the constrain file in the Makefile.
