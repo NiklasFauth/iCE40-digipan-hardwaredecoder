@@ -32,8 +32,9 @@ may need to run it with `sudo`.
 [3]: http://www.clifford.at/icestorm/
 
 ## Usage
+Connect data positive of the RS422 connection to T1 of the HX8 eval board.
 
-- python setbaudrate.py /dev/ttyUSB0 8000000
+- python setbaudrate.py <>/dev/ttyUSB0 8000000
 - python image_rt.py /dev/ttyUSB0
 
 ## Other boards
